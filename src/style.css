@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/Roboto-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/Roboto-Light.ttf);
+  font-weight: 300;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html, 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, 'sans-serif';
+  background-color: #161616;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Roboto, 'sans-serif';
+  color: #fff;
+}
+
+.btn {
+  background: none;
+  border: none;
+  padding: .5em 1em;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 640px;
+  margin: auto;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 3rem;
+}
+
+.changeTempType-panel {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
